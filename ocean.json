@@ -1,0 +1,26 @@
+{
+  "spawners": [
+    {
+      "id": "bubbles",
+      "first": 0,
+      "interval": [0.3, 0.9],
+      "max": 40,
+      "entries": [{ "type": "bubble" }]
+    },
+    {
+      "id": "turtle",
+      "first": 9,
+      "interval": [22, 34],
+      "max": 1,
+      "entries": [{ "type": "seaTurtle" }]
+    }
+  ],
+  "populations": [
+    { "type": "bubble", "count": 8, "params": { "anywhere": true } },
+    { "type": "fish", "count": 5, "params": { "color": "#FFB347", "dir": 1, "y": 0.3 } },
+    { "type": "fish", "count": 5, "params": { "color": "#FF7A8A", "dir": -1, "y": 0.5 } },
+    { "type": "jellyfish", "params": { "color": "#FF9EDC", "x": 0.2, "y": 0.35 } },
+    { "type": "jellyfish", "params": { "color": "#B59BFF", "x": 0.5, "y": 0.45 } },
+    { "type": "jellyfish", "params": { "color": "#8FE3FF", "x": 0.8, "y": 0.3 } }
+  ]
+}

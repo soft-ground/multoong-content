@@ -1,0 +1,12 @@
+{
+  "spawners": [
+    {
+      "id": "sky",
+      "first": 5,
+      "interval": [12, 22],
+      "max": 1,
+      "entries": [{ "type": "shootingStar" }]
+    }
+  ],
+  "populations": [{ "type": "firefly", "count": 26 }]
+}

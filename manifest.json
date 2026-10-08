@@ -1,0 +1,9 @@
+{
+  "contentVersion": 1,
+  "schema": 1,
+  "scenes": [
+    "meadow",
+    "night",
+    "ocean"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "spawners": [
+    {
+      "id": "visitors",
+      "first": 2,
+      "interval": [7, 13],
+      "max": 2,
+      "entries": [
+        {
+          "type": "butterfly",
+          "weight": 4,
+          "variants": [
+            { "c1": "#FFA24C", "c2": "#8A3B12" },
+            { "c1": "#7CC4FF", "c2": "#1F4E8C" },
+            { "c1": "#FF9EC7", "c2": "#9B2E5F" },
+            { "c1": "#FFE066", "c2": "#8A6A00" }
+          ]
+        },
+        {
+          "type": "dragonfly",
+          "weight": 2,
+          "variants": [
+            { "c1": "#2EC4B6", "c2": "#0B6B63" },
+            { "c1": "#E63946", "c2": "#7A1620" }
+          ]
+        },
+        { "type": "bee", "weight": 1 }
+      ]
+    }
+  ],
+  "populations": []
+}

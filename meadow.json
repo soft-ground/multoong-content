@@ -2,9 +2,9 @@
   "spawners": [
     {
       "id": "visitors",
-      "first": 2,
-      "interval": [7, 13],
-      "max": 2,
+      "first": 1,
+      "interval": [2, 4],
+      "max": 4,
       "entries": [
         {
           "type": "butterfly",
@@ -24,7 +24,7 @@
             { "c1": "#E63946", "c2": "#7A1620" }
           ]
         },
-        { "type": "bee", "weight": 1 }
+        { "type": "bee", "weight": 1000 }
       ]
     }
   ],
